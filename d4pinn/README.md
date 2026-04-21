@@ -5,9 +5,8 @@
 ## English Version
 
 ### Overview
-This is the official implementation of the paper **"D4-PINN: A Library-Free Architecture for Solving D4-Symmetric Semilinear Elliptic Equations"**, submitted to *Journal of Computational Physics* (JCP, SCI Q1).
 
-We propose a lightweight, dependency-free D4-equivariant PINN architecture that solves the deployment problem of heavy equivariant libraries like ESCNN. Our method is mathematically equivalent to ESCNN, but runs 1.6x faster on training and 100x faster than FEM on inference, with zero external dependencies.
+I propose a lightweight, dependency-free D4-equivariant PINN architecture that solves the deployment problem of heavy equivariant libraries like ESCNN. Our method is mathematically equivalent to ESCNN, but runs 1.6x faster on training and 100x faster than FEM on inference, with zero external dependencies.
 
 ### Key Features
 - ✅ **Strict D4 Hard Constraint**: Mathematically equivalent to ESCNN invariant layers
@@ -91,16 +90,15 @@ If you use this code in your research, please cite our paper:
 ```
 
 ### License
-MIT License
+
 
 ---
 
 ## 中文版本
 
 ### 项目简介
-这是论文 **《D4-PINN: 面向D4对称半线性椭圆方程的无库架构》** 的官方代码实现，已投稿至 *Journal of Computational Physics* (JCP, SCI一区)。
 
-我们提出了一个轻量级、零依赖的D4等变PINN架构，解决了ESCNN等等变库部署困难的问题。我们的方法与ESCNN数学等价，但训练速度快1.6倍，推理速度比有限元快100倍，且完全不需要外部依赖。
+我提出了一个轻量级、零依赖的D4等变PINN架构，解决了ESCNN等等变库部署困难的问题。我们的方法与ESCNN数学等价，但训练速度快1.6倍，推理速度比有限元快100倍，且完全不需要外部依赖。
 
 ### 核心特性
 - ✅ **严格D4硬约束**：与ESCNN不变层数学等价
@@ -183,5 +181,3 @@ python experiments/generate_main_figure.py
 }
 ```
 
-### 许可证
-MIT许可证
